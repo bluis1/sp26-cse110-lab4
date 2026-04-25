@@ -1,7 +1,7 @@
 # Part 1
 
 ## Question 1
-Line 9 prints: '20' because 'add' is true, so the code inside the if block runs. result starts at 0 and then becomes 10 + 10`, which is 20.
+Line 9 prints: `20` because `add` is true, so the code inside the `if` block runs. result starts at 0 and then becomes `10 + 10`, which is 20.
 
 ## Question 2
 Line 13 prints: 
