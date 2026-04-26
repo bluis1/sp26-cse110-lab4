@@ -62,10 +62,20 @@ G. outputs `"3undefined"` because `undefined` becomes a string.
 H. outputs `NaN` because `undefined` becomes `NaN`
 
 ## Question 14
+A. outputs `true` because `"2"` is converted to the number `2`
 
+B. outputs `false` because both values are strings, so JavaScript compares them like text. `"2"` comes after `"1"`.
+
+C. outputs `true` because `==` allows type conversion.
+
+D. outputs `false` because `===` checks both value and type.
+
+E. outputs `false` because `true` converts to `1`, and `1` is not equal to `2`.
+
+F. outputs `true` because `Boolean(2)` becomes `true`, so both sides are boolean `true`.
 
 ## Question 15
-
+`==` checks if two values are equal after allowing type conversion. `===` checks if two values are equal without converting types, so the value and the type both have to match.
 
 ## Question 16
 
