@@ -78,15 +78,20 @@ F. outputs `true` because `Boolean(2)` becomes `true`, so both sides are boolean
 `==` checks if two values are equal after allowing type conversion. `===` checks if two values are equal without converting types, so the value and the type both have to match.
 
 ## Question 16
-
+answers are in part2-question16.js 
 
 ## Question 17
-
+The result will be `[2, 4, 6]`. The function `modifyArray` loops through `[1, 2, 3]` and calls `doSomething` on each value. Since `doSomething` multiplies each number by 2, the new array becomes `[2, 4, 6]`.
 
 ## Question 18
-
+code in part2-question18.js
 
 ## Question 19
+The output is:
+1
+4
+3
+2
 
+`1` prints first. Then the two `setTimeout` calls are scheduled, but JavaScript keeps going, so `4` prints next. The timeout with `0` milliseconds prints `3` after the current code finishes. Finally, `2` prints after 1000 milliseconds.
 
-## Question 20
